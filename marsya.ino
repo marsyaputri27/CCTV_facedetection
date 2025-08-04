@@ -3,8 +3,8 @@
 #include <HTTPClient.h>
 
 // Ganti dengan WiFi kamu
-const char* ssid = "name wifi";
-const char* password = "";
+const char* ssid = "wifi name";
+const char* password = "wifi password";
 
 // IP Server Flask kamu (di Python) — pastikan endpoint-nya "/"
 const char* serverName = "";
@@ -106,4 +106,5 @@ void loop() {
   esp_camera_fb_return(fb);
   delay(10000); // ambil gambar tiap 10 detik
 }
+
 
