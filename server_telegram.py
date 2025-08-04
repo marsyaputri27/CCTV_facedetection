@@ -8,9 +8,9 @@ import io
 
 
 app = Flask(__name__)
-
-BOT_TOKEN = '7592379058:AAH5DQEFcfDwhQ5jAW9vhRSNjapz98RYOmg'
-CHAT_ID = '1645967530'
+// bot toket telegram and chat id telegram
+BOT_TOKEN = ''
+CHAT_ID = ''
 bot = telepot.Bot(BOT_TOKEN)
 
 def detect_face(image_bytes):
@@ -44,3 +44,4 @@ def receive_image():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
